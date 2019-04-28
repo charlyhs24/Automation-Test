@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login;user-melihat-data-barang" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/the last semester/PMPL/WORKSHOP/ACIM-STORE/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given User membuka halaman login" classname="login;user-melihat-data-barang" time="0.001824085">
+        </testcase>
+        <testcase name="And User memasukan username" classname="login;user-melihat-data-barang" time="4.798912742">
+        </testcase>
+        <testcase name="And User memasukan Password" classname="login;user-melihat-data-barang" time="0.109612217">
+        </testcase>
+        <testcase name="When User menekan button login" classname="login;user-melihat-data-barang" time="0.83235735">
+        </testcase>
+        <testcase name="Then User akan menuju halaman Kelola barang" classname="login;user-melihat-data-barang" time="0.000401278">
+        </testcase>
+    </testsuite>
+    <testsuite name="tambah-barang;menambahkan-data-barang-baru" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/the last semester/PMPL/WORKSHOP/ACIM-STORE/features/tambah.feature">
+            </property>
+        </properties>
+        <testcase name="Given User membuka halaman login" classname="tambah-barang;menambahkan-data-barang-baru" time="0.000133994">
+        </testcase>
+        <testcase name="And User memasukan username" classname="tambah-barang;menambahkan-data-barang-baru" time="3.720171386">
+        </testcase>
+        <testcase name="And User memasukan Password" classname="tambah-barang;menambahkan-data-barang-baru" time="0.0980464">
+        </testcase>
+        <testcase name="When User menekan button login" classname="tambah-barang;menambahkan-data-barang-baru" time="0.985924964">
+        </testcase>
+        <testcase name="Then User akan menuju halaman Kelola barang" classname="tambah-barang;menambahkan-data-barang-baru" time="0.000317355">
+        </testcase>
+        <testcase name="Given User memilih aksi tambah barang" classname="tambah-barang;menambahkan-data-barang-baru" time="0.710767106">
+        </testcase>
+        <testcase name="And User mengisi id barang" classname="tambah-barang;menambahkan-data-barang-baru" time="0.092947214">
+        </testcase>
+        <testcase name="And User mengisi nama barang" classname="tambah-barang;menambahkan-data-barang-baru" time="0.120813077">
+        </testcase>
+        <testcase name="And User mengisi harga barang" classname="tambah-barang;menambahkan-data-barang-baru" time="0.091862565">
+        </testcase>
+        <testcase name="And User mengisi tanggal kadaluarsa" classname="tambah-barang;menambahkan-data-barang-baru" time="0.118862756">
+        </testcase>
+        <testcase name="And User mengisi id supplier" classname="tambah-barang;menambahkan-data-barang-baru" time="0.068758434">
+        </testcase>
+    </testsuite>
+    <testsuite name="tambah-barang;menambahkan-data-barang-baru" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/the last semester/PMPL/WORKSHOP/ACIM-STORE/features/update.feature">
+            </property>
+        </properties>
+        <testcase name="Given User membuka halaman login" classname="tambah-barang;menambahkan-data-barang-baru" time="0.001111095">
+        </testcase>
+        <testcase name="And User memasukan username" classname="tambah-barang;menambahkan-data-barang-baru" time="3.665545111">
+        </testcase>
+        <testcase name="And User memasukan Password" classname="tambah-barang;menambahkan-data-barang-baru" time="0.106896365">
+        </testcase>
+        <testcase name="When User menekan button login" classname="tambah-barang;menambahkan-data-barang-baru" time="0.610209021">
+        </testcase>
+        <testcase name="Then User akan menuju halaman Kelola barang" classname="tambah-barang;menambahkan-data-barang-baru" time="0.000367074">
+        </testcase>
+        <testcase name="Given User memilih aksi edit" classname="tambah-barang;menambahkan-data-barang-baru" time="0.558074334">
+        </testcase>
+        <testcase name="And User mengupdate nama barang" classname="tambah-barang;menambahkan-data-barang-baru" time="0.166373937">
+        </testcase>
+        <testcase name="And User mengupdate Harga Barang" classname="tambah-barang;menambahkan-data-barang-baru" time="0.101532012">
+        </testcase>
+        <testcase name="And User mengupdate stok barang" classname="tambah-barang;menambahkan-data-barang-baru" time="0.080720946">
+        </testcase>
+        <testcase name="And User mengupdate tanggal kadaluarsa" classname="tambah-barang;menambahkan-data-barang-baru" time="0.117282682">
+        </testcase>
+        <testcase name="And User mengupdate supplier" classname="tambah-barang;menambahkan-data-barang-baru" time="0.081133859">
+        </testcase>
+    </testsuite>
+</testsuites>

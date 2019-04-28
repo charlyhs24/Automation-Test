@@ -1,0 +1,467 @@
+[
+  {
+    "description": "user melakukan login pada halaman website ACIM",
+    "elements": [
+      {
+        "id": "login;user-melihat-data-barang",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "user melihat data barang",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User membuka halaman login",
+            "result": {
+              "status": "passed",
+              "duration": 1824085
+            },
+            "line": 6,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User memasukan username",
+            "result": {
+              "status": "passed",
+              "duration": 4798912742
+            },
+            "line": 7,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User memasukan Password",
+            "result": {
+              "status": "passed",
+              "duration": 109612217
+            },
+            "line": 8,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User menekan button login",
+            "result": {
+              "status": "passed",
+              "duration": 832357350
+            },
+            "line": 9,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User akan menuju halaman Kelola barang",
+            "result": {
+              "status": "passed",
+              "duration": 401278
+            },
+            "line": 10,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 708863683
+            },
+            "hidden": true,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "login",
+    "tags": [],
+    "uri": "D:/KULIAH/the last semester/PMPL/WORKSHOP/ACIM-STORE/features/login.feature"
+  },
+  {
+    "description": "user menambahkan data barang baru pada halaman website ACIM",
+    "elements": [
+      {
+        "id": "tambah-barang;menambahkan-data-barang-baru",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "menambahkan data barang baru",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User membuka halaman login",
+            "result": {
+              "status": "passed",
+              "duration": 133994
+            },
+            "line": 6,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User memasukan username",
+            "result": {
+              "status": "passed",
+              "duration": 3720171386
+            },
+            "line": 7,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User memasukan Password",
+            "result": {
+              "status": "passed",
+              "duration": 98046400
+            },
+            "line": 8,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User menekan button login",
+            "result": {
+              "status": "passed",
+              "duration": 985924964
+            },
+            "line": 9,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User akan menuju halaman Kelola barang",
+            "result": {
+              "status": "passed",
+              "duration": 317355
+            },
+            "line": 10,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User memilih aksi tambah barang",
+            "result": {
+              "status": "passed",
+              "duration": 710767106
+            },
+            "line": 11,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\tambah-step.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengisi id barang",
+            "result": {
+              "status": "passed",
+              "duration": 92947214
+            },
+            "line": 12,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\tambah-step.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengisi nama barang",
+            "result": {
+              "status": "passed",
+              "duration": 120813077
+            },
+            "line": 13,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\tambah-step.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengisi harga barang",
+            "result": {
+              "status": "passed",
+              "duration": 91862565
+            },
+            "line": 14,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\tambah-step.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengisi tanggal kadaluarsa",
+            "result": {
+              "status": "passed",
+              "duration": 118862756
+            },
+            "line": 15,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\tambah-step.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengisi id supplier",
+            "result": {
+              "status": "passed",
+              "duration": 68758434
+            },
+            "line": 16,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\tambah-step.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 183373925
+            },
+            "hidden": true,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "tambah-barang",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Tambah Barang",
+    "tags": [],
+    "uri": "D:/KULIAH/the last semester/PMPL/WORKSHOP/ACIM-STORE/features/tambah.feature"
+  },
+  {
+    "description": "user mengupdate data barang pada halaman website ACIM",
+    "elements": [
+      {
+        "id": "tambah-barang;menambahkan-data-barang-baru",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "menambahkan data barang baru",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User membuka halaman login",
+            "result": {
+              "status": "passed",
+              "duration": 1111095
+            },
+            "line": 6,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User memasukan username",
+            "result": {
+              "status": "passed",
+              "duration": 3665545111
+            },
+            "line": 7,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User memasukan Password",
+            "result": {
+              "status": "passed",
+              "duration": 106896365
+            },
+            "line": 8,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User menekan button login",
+            "result": {
+              "status": "passed",
+              "duration": 610209021
+            },
+            "line": 9,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User akan menuju halaman Kelola barang",
+            "result": {
+              "status": "passed",
+              "duration": 367074
+            },
+            "line": 10,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\login-step.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "User memilih aksi edit",
+            "result": {
+              "status": "passed",
+              "duration": 558074334
+            },
+            "line": 11,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\update-step.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengupdate nama barang",
+            "result": {
+              "status": "passed",
+              "duration": 166373937
+            },
+            "line": 12,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\update-step.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengupdate Harga Barang",
+            "result": {
+              "status": "passed",
+              "duration": 101532012
+            },
+            "line": 13,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\update-step.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengupdate stok barang",
+            "result": {
+              "status": "passed",
+              "duration": 80720946
+            },
+            "line": 14,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\update-step.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengupdate tanggal kadaluarsa",
+            "result": {
+              "status": "passed",
+              "duration": 117282682
+            },
+            "line": 15,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\update-step.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User mengupdate supplier",
+            "result": {
+              "status": "passed",
+              "duration": 81133859
+            },
+            "line": 16,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\step-definitions\\update-step.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 331008769
+            },
+            "hidden": true,
+            "match": {
+              "location": "semester\\PMPL\\WORKSHOP\\ACIM-STORE\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "tambah-barang",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Tambah Barang",
+    "tags": [],
+    "uri": "D:/KULIAH/the last semester/PMPL/WORKSHOP/ACIM-STORE/features/update.feature"
+  }
+]
